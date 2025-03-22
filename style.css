@@ -174,14 +174,15 @@ html {
     .nav-links {
         margin-top: 1rem;
          margin: 2px; /* Kurangi Jarak horizontal */
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .nav-links a {
         display: block;
        margin: 0 2px; /* Kurangi Jarak horizontal */
-    padding: 2px; /* Kurangi padding agar tidak terlalu lebar */
-        font-size: 16px;
+      padding: 1px; /* Kurangi padding agar tidak terlalu lebar */
+        font-size: 10px;
+        gap: 5px;
     }
 
     /* Profil Guru Section */
