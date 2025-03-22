@@ -173,6 +173,7 @@ html {
 
     .nav-links {
         margin-top: 1rem;
+         margin: 0 2px; /* Kurangi Jarak horizontal */
     }
 
     .nav-links a {
