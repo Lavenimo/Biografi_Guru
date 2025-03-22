@@ -182,7 +182,7 @@ html {
        margin: 0 2px; /* Kurangi Jarak horizontal */
       padding: 1px; /* Kurangi padding agar tidak terlalu lebar */
         font-size: 10px;
-        gap: 5px;
+        gap: 2px;
     }
 
     /* Profil Guru Section */
