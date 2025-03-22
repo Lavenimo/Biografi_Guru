@@ -141,3 +141,62 @@ html {
 .nav-links a:hover {
     color: blue; /* Efek hover */
 }
+
+@media (max-width: 768px) {
+    /* Hero Section */
+    .hero-section {
+        height: auto; /* Biar menyesuaikan konten */
+        padding: 3rem 1rem;
+    }
+
+    .profile-img {
+        width: 120px; /* Ukuran lebih kecil di HP */
+        height: 120px;
+        border: 3px solid var(--primary-color);
+    }
+
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    /* Navbar */
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    /* Profil Guru Section */
+    .about-grid {
+        grid-template-columns: 1fr; /* Supaya 1 kolom di HP */
+        gap: 1rem;
+    }
+
+    .about-card {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    /* About Us - Anggota */
+    .about-us {
+        flex-direction: column; /* Supaya tampil ke bawah */
+        align-items: center;
+    }
+
+    .subject-card {
+        width: 100%; /* Supaya tidak melebihi layar */
+    }
+}
+
