@@ -164,11 +164,11 @@ html {
     }
 
     /* Navbar */
-    .nav-container {
-        flex-direction: column;
-        text-align: center;
-        height: auto;
-    }
+   .nav {
+    max-width: 100%; /* Batasi lebar navbar */
+    overflow: hidden; /* Mencegah elemen keluar dari batas */
+    flex-wrap: wrap; /* Jika tidak muat, otomatis turun ke baris berikutnya */
+}
 
     .nav-links {
         margin-top: 1rem;
