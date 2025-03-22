@@ -177,7 +177,7 @@ html {
 
     .nav-links a {
         display: block;
-       margin: 0 10px; /* Kurangi Jarak horizontal */
+       margin: 0 2px; /* Kurangi Jarak horizontal */
     padding: 5px 10px; /* Kurangi padding agar tidak terlalu lebar */
     }
 
