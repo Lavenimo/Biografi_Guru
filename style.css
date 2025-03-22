@@ -180,6 +180,7 @@ html {
         display: block;
        margin: 0 2px; /* Kurangi Jarak horizontal */
     padding: 2px; /* Kurangi padding agar tidak terlalu lebar */
+        font-size: 16px;
     }
 
     /* Profil Guru Section */
