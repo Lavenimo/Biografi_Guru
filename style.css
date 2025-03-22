@@ -162,12 +162,15 @@ html {
     .hero-section p {
         font-size: 1rem;
     }
+    
+    .nav {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: wrap;
+    justify-content: space-around; /* Supaya merata */
+    padding: 10px 20px;
+}
 
-    /* Navbar */
-   .nav {
-    max-width: 100%; /* Batasi lebar navbar */
-    overflow: hidden; /* Mencegah elemen keluar dari batas */
-    flex-wrap: wrap; /* Jika tidak muat, otomatis turun ke baris berikutnya */
 }
 
     .nav-links {
