@@ -17,7 +17,8 @@
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s;
-    flex-direction: row; /* Ini adalah lebar default */
+    display: flex;
+    flex-wrap: wrap;/* Ini adalah lebar default */
     margin: auto;
 }
 .about-cards {
