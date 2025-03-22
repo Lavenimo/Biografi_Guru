@@ -166,7 +166,6 @@ html {
     .nav {
     display: flex;
     flex-wrap: wrap;
-    overflow: wrap;
     justify-content: space-around; /* Supaya merata */
     padding: 10px 20px;
 }
