@@ -175,6 +175,7 @@ html {
         margin-top: 1rem;
          margin: 2px; /* Kurangi Jarak horizontal */
         font-size: 10px;
+        gap: 3px;
     }
 
     .nav-links a {
