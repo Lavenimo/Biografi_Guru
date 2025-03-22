@@ -169,6 +169,7 @@ html {
     justify-content: center; /* Agar tidak saling menjauh */
     align-items: center;
     width: 100%;
+     min-height: 60px
 }
 
 
