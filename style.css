@@ -192,6 +192,12 @@ html {
         width: 300px;
         margin-left: 0;   
     }
+        .about-card {
+        padding: 1.5rem;
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 0;   
+    }
 
     /* About Us - Anggota */
     .about-us {
