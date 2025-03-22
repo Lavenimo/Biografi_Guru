@@ -179,7 +179,8 @@ html {
 
     .nav-links a {
         display: block;
-        margin: 0.5rem 0;
+       margin: 0 10px; /* Kurangi jarak horizontal */
+    padding: 5px 10px; /* Kurangi padding agar tidak terlalu lebar */
     }
 
     /* Profil Guru Section */
