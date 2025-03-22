@@ -140,3 +140,78 @@ html {
     color: blue; /* Efek hover */
 }
 
+@media (max-width: 768px) {
+    /* Hero Section */
+    .hero-section {
+        height: auto; /* Biar menyesuaikan konten */
+        padding: 3rem 1rem;
+    }
+
+    .profile-img {
+        width: 120px; /* Ukuran lebih kecil di HP */
+        height: 120px;
+        border: 3px solid var(--primary-color);
+    }
+
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+    
+    .nav {
+    display: flex;
+    flex-wrap: wrap; /* Memastikan elemen tidak hilang */
+    justify-content: center; /* Agar tidak saling menjauh */
+    align-items: center;
+    width: 100%;
+     min-height: 60px
+}
+
+
+}
+
+    .nav-links {
+        margin-top: 1rem;
+    }
+
+    .nav-links a {
+        display: block;
+       margin: 0 10px; /* Kurangi Jarak horizontal */
+    padding: 5px 10px; /* Kurangi padding agar tidak terlalu lebar */
+    }
+
+    /* Profil Guru Section */
+    .about-grid {
+        grid-template-columns: 1fr; /* Supaya 1 kolom di HP */
+        gap: 1rem;
+        width: 400px;
+
+    }
+
+    .about-card {
+        padding: 1.5rem;
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 0;   
+    }
+    .about-cards {
+        padding: 1.5rem;
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 0;  
+        height: 300px;
+    }
+
+    /* About Us - Anggota */
+    .about-us {
+        flex-direction: column; /* Supaya tampil ke Bawah */
+        align-items: center;
+    }
+
+    .subject-card {
+        width: 100%; /* Supaya tidak melebihi layer */
+    }
+}
