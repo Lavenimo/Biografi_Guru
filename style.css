@@ -182,6 +182,7 @@ html {
     .about-grid {
         grid-template-columns: 1fr; /* Supaya 1 kolom di HP */
         gap: 1rem;
+        width: 700px;
     }
 
     .about-card {
